@@ -27,7 +27,7 @@ import Link from "next/link"
 export default function Nav() {
   function moveScript() {
     window.scrollTo({
-      top:4315,
+      top:4560,
       behavior: "smooth"
     })
   }
