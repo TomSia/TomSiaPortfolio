@@ -1,0 +1,922 @@
+  
+  
+  .sidenav {
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 50px;
+    width: 180px;
+    height: 100vh;
+    float: left;
+  }
+
+  .iconnav {
+    position: absolute;
+    left: 70;
+    bottom: 50;
+  }
+
+  .iconnavimages {
+    margin: 30px 0px;
+  }
+
+  .topnav {
+    position: absolute;
+    width: 450px;
+    height: 100px;
+    right: 0;
+    font-family: "Raleway";
+    font-weight: 600;
+  }
+
+  .topnav li {
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+
+  .topnav li:hover {
+    cursor: pointer;
+  }
+
+  .highlight {
+    background-color: #D2BF27;
+    padding: 10px 24px;
+    border-radius: 12px;
+    color: black;
+  }
+
+  .herohead {
+    padding-top: 17%;
+    padding-left: -100px;
+    text-align: center;
+    font-size: 120px;
+    font-family: "Raleway";
+    font-weight: 500;
+    line-height: 130px;
+  }
+
+  .herohead1 {
+    background-color: #D2BF27;
+    color: #333333;
+  }
+
+  .moretab {
+    position: absolute;
+    right: 50px;
+    bottom: 70px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+  }
+
+  .textring {
+    opacity: 100%;
+    padding-left: -10px;
+  }
+
+  .textringimg {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+
+  .textringimg:hover {
+    transform: rotate(-50deg);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .wearesection {
+    width: 100%;
+    height: 60vh;
+    background-color: #EFEFEF;
+    color: black;
+    padding-left: 15%;
+  }
+
+  .wearetext {
+    width: 55%;
+    padding-top: 4%;
+    float: left;
+  }
+  .wearehead {
+    font-size: 44px;
+    font-weight: 600;
+  }
+
+  .foundimg {
+    float: left;
+    margin-left: 5%;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    background-image: url(./../public/assets/images/founderback.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .foundimg h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .foundimg p {
+    font-size: 12px;
+  }
+
+  .foundersimg {
+    margin-top: 50%;
+    margin-left: 15%;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+  }
+
+  .whatwedo {
+    background-color: white;
+    height: 50vh;
+    color:  #333333;
+    padding-top: 4%;
+    padding-left: 20%;
+  }
+
+  .whatwedotext {
+    width: 70%;
+    text-align: center;
+  }
+
+  .whatwedotext h2 {
+    font-family: "Raleway";
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .whatwedotext p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .wwdul1 {
+    width: 80%;
+    float: none;
+    margin-left: 12%;
+  }
+
+  .wwdul2{
+    width: 100%;
+  }
+
+  .whatwedotext ul li {
+    float: left;
+    margin-left: 10px;
+    font-size: 14px;
+    color: white;
+    background-color: #3D3D3D;
+    padding: 5px 20px;
+    border-radius: 4px;
+    font-family: "JetBrains Mono";
+    margin-bottom: 10px;
+  }
+
+  .whatwedotext ul span {
+    float: left;
+    margin-left: 30px;
+    font-size: 14px;
+    color: white;
+    background-color: #3D3D3D;
+    padding: 5px 20px;
+    border-radius: 4px;
+    font-family: "JetBrains Mono";
+    margin-bottom: 10px;
+  }
+
+  .wwdimg1 {
+    padding-left: 20px;
+  }
+
+  .wwdimg {
+    float: left;
+    margin-top: 2px;
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .yellow {
+    background-color: #D2BF27;
+  }
+
+  .projectsection {
+    background-color: #EFEFEF;
+    height: 230vh;
+    color: #333333;
+  }
+
+  .projecttext {
+    padding-top: 80px;
+    margin-bottom: 80px;
+    width: 90%;
+    height: 12%;
+    margin-left: 5%;
+  }
+
+  .projecttext h2 {
+    font-family: "Raleway";
+    font-size: 44px;
+    font-weight: 600;
+    width: 45%;
+    float: left;
+    margin-right: 10%;
+  }
+
+  .projecttext p {
+    font-size: 20px;
+    width: 45%;
+    float: left;
+  }
+
+  .projectcontainer {
+    width: 90%;
+    height: 82%;
+    padding-bottom: 100px;
+    margin-left: 5%;
+  }
+  
+  .projectcardL {
+    height: 47%;
+    width: 49%;
+    background-color: #FFFFFF;
+    float: left;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 2%;
+  }
+
+  .projectcardR {
+    height: 47%;
+    width: 49%;
+    background-color: #FFFFFF;
+    float: right;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 2%;
+  }
+
+  .projectimg {
+    width: 100%;
+    height: 50%;
+    background-color: #EFEFEF;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+
+  .projectcardusage {
+    min-width: 100%;
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  .projectcardlang {
+    float: left;
+    font-size: 14px;
+    color: #242424;
+    background-color: #FAFAFA;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-family: "Manrope";
+    font-weight: 500;
+    border: #E9E9E9 solid 1px;
+    margin-right: 10px;
+  }
+
+  .projectcardtext h3 {
+    float: none;
+    font-family: "Raleway";
+    font-weight:550;
+    font-size: 24px;
+  }
+
+  .projectcardtext p {
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 70px;
+  }
+
+  .seemore {
+    font-family: "JetBrains Mono";
+    font-size: 16px;
+  }
+  
+  .seemore p {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .allprojects {
+    text-align: center;
+    border: #E9E9E9 solid 1px;
+    background-color: #FFFFFF;
+    font-family: "JetBrains Mono";
+    font-size: 20px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    color: #242424;
+    position: relative;
+    top: 30px;
+    left: 40%;
+  }
+
+  .teamextension {
+    background-color: #FFFFFF;
+    height: 105vh;
+    width: 100%;
+    padding-top: 5%;
+  }
+
+  .teamtext {
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+  }
+
+  .teamtext h2 {
+    font-size: 44px;
+    font-family: "Raleway";
+    font-weight: 600;
+  }
+
+  .teamtext p {
+    font-size: 20px;
+    font-family: "Manrope";
+    margin-top: 30px;
+  }
+
+  .teamscon {
+    margin-top: 40px;
+    margin-left: 10%;
+    width: 80%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+
+  .teamscon div {
+    background-color: #E9E9E9;
+    padding-top: 20%;
+    text-align: center;
+  }
+
+  .contactsection {
+    background-color: #EFEFEF;
+    height: 100vh;
+    color: #333333;
+    padding-top: 5%;
+  }
+
+  .contacttext {
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .contacttext h2 {
+    font-family: "Raleway";
+    font-size: 44px;
+    font-weight: 600;
+  }
+
+  .contactform {
+    width: 35%;
+    float: left;
+    margin-left: 5%;
+  }
+
+  .contactform label {
+    font-size: 16px;
+  }
+
+  .contactform input {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+
+  .contactform button {
+    margin-top: 15px;
+    background-color: #D2BF27;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: "Raleway";
+    font-weight: 600;
+    border-radius: 12px;
+  }
+
+  .contactform textarea {
+    height: 150px;
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+
+  .reviewsection {
+    background-color: #FFFFFF;
+    height: 100vh;
+    color: #333333;
+    padding-top: 8%;
+  }
+
+  .reviewbox {
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+  }
+
+  .reviewsection h2 {
+    font-family: "Raleway";
+    font-size: 44px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .reviewboxp {
+    font-size: 40px;
+    font-family: "Manrope";
+
+  }
+
+  .reviewerimg {
+    margin-top: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .reviewerh3 {
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: "Manrope";
+  }
+
+  .reviewerp {
+    font-size: 16px;
+    font-family: "Manrope";
+  }
+
+  .carousel-controlprev {
+    position: absolute;
+    top: 20%;
+    left: -200px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  .carousel-controlnext {
+    position: absolute;
+    top: 20%;
+    right: -200px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  .getstartedsection {
+    background-color: #FFFFFF;
+    height: 40vh;
+    padding-top: 4%;
+  }
+
+  .getstartedbox {
+    height: 80%;
+    width: 90%;
+    margin-left: 5%;
+    color: #FFFFFF;
+    background-color: #101010;
+    padding-left: 50px;
+    background-image: url(./../public/assets/images/getstartedbg.png);
+    background-size: cover;
+    background-position: 70%;
+  }
+
+  .getstartedtext {
+    font-family: "Raleway";
+    width: 40%;
+    height: 50%;
+    padding-top: 50px;
+    float: left;
+  }
+
+  .getstartedbox h2{
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .getstartedbox p {
+    font-size: 20px;
+    color: #6E6E6E;
+  }
+
+  .getstartedbutton {
+    float: right;
+    margin-top: 80px;
+    margin-right: 50px;
+    color: #333333;
+  }
+
+  .getintouch {
+    background-color: #101010;
+    height: 40vh;
+    width: 100%;
+    color: #FFFFFF;
+    padding-left: 70px;
+  }
+
+  .getintouchtext {
+    font-family: "Raleway";
+    width: 23%;
+    float: left;
+  }
+
+  .getintouchtext h3 {
+    padding-top: 30px;
+    font-size: 46px;
+    font-weight: 600;
+  }
+
+  .getintouchtext p {
+    font-size: 14px;
+    color: #6E6E6E;
+  }
+
+  .getintouchtext button {
+    margin-top: 30px;
+  }
+
+  .getintouchemail {
+    padding-top: 50px;
+    width: 60%;
+    float: right;
+
+  }
+
+  .getintouchemail h4 {
+    font-size: 96px;
+    color: #242424;
+    line-height: 90px;
+    font-family: "Onest";
+  }
+
+  .getintouch h5 {
+    text-align: center;
+    font-family: "Inter";
+    float: left;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 30px;
+    color: #6F6F6F;
+    font-weight: 300;
+  }
+
+  @media screen and (max-width: 1400px) {
+    .wearetext{
+      padding-top: 2%;
+    }
+    .wearehead {
+      font-size: 38px;
+    }
+
+    .whatwedotext ul li {
+      font-size: 10px;
+    }
+
+    .whatwedotext ul span {
+      font-size: 10px;
+    }
+
+    .wwdimg {
+      width: 12px;
+      height: 12px;
+    }
+
+    .projectcardlang {
+      font-size: 12px;
+    }
+
+    .projectcardtext p {
+      font-size: 18px;
+    }
+
+    .contactsection {
+      padding-top: 2%;
+    }
+
+    .reviewsection {
+      padding-top: 4%;
+    }
+
+    .getstartedtext {
+      padding-top: 40px;
+    }
+
+    .getstartedbox p {
+      font-size: 16px;
+    }
+
+    .getstartedbutton {
+      margin-top: 60px;
+    }
+
+    .getintouchtext h3 {
+      padding-top: 20px;
+    }
+
+    .getintouchemail {
+      padding-top: 30px;
+    }
+
+    .getintouch h5 {
+      margin-top: 20px;
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .herohead {
+      padding-top: 13%;
+    }
+
+    .wearehead {
+      font-size: 32px;
+    }
+
+    .wearetext p {
+      font-size: 14px;
+    }
+
+    .foundersimg {
+      margin-left: 10%;
+    }
+
+    .whatwedo {
+      padding-top: 2%;
+    }
+
+    .whatwedotext p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .whatwedotext ul span {
+      margin-left: 18px;
+    }
+
+    .whatwedotext ul li {
+      margin-left: 5px;
+    }
+
+    .projecttext h2 {
+      font-size: 36px;
+    }
+
+    .projecttext p {
+      font-size: 18px;
+    }
+
+    .projectcardtext h3 {
+      font-size: 22px;
+    }
+
+    .projectcardtext p {
+      font-size: 14px;
+      margin-right: 15px;
+      margin-bottom: 80px;
+    }
+
+    .seemore img {
+      width: 12px;
+      height: 12px;
+      margin-top: 5px;
+    }
+
+    .allprojects {
+      font-size: 16px;
+      padding: 10px 20px;
+      left: 42%;
+    }
+
+    .teamtext h2 {
+      font-size: 36px;
+    }
+
+    .teamtext p {
+      font-size: 16px;
+    }
+
+    .contacttext h2 {
+      font-size: 40px;
+    }
+
+    .contactform label {
+      font-size: 14px;
+    }
+
+    .contactform input {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+
+    .contactform p {
+      font-size: 12px;
+    }
+
+    .contactform button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+
+    .contactform textarea {
+      height: 120px;
+    }
+
+    .reviewsection h2 {
+      font-size: 32px;
+    }
+
+    .reviewboxp {
+      font-size: 32px;
+    }
+
+    .getstartedbox h2 {
+      font-size: 28px;
+    }
+
+    .getintouchtext h3 {
+      font-size: 36px;
+    }
+
+    .getintouchemail h4 {
+      font-size: 86px;
+    }
+
+    .getintouchtext button {
+      margin-top: 20px;
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+
+    .getintouchtext p {
+      font-size: 12px;
+    }
+
+    .getintouchemail {
+      padding-top: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .iconnav {
+      bottom: 20;
+      left: 70;
+    }
+    .moretab {
+      display: none;
+    }
+
+    .herohead {
+      font-size: 80px;
+      line-height: 90px;
+      padding-top: 17%;
+    }
+
+    .wearehead {
+      font-size: 24px;
+    }
+
+    .wearetext p {
+      font-size: 12px;
+    }
+
+    .foundersimg {
+      margin-left: 14%;
+      width: 120px;
+      height: 120px;
+    }
+
+    .whatwedotext h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .whatwedotext p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .wwdul1 {
+      width: 100%;
+      margin-left: 3%;
+    }
+
+    .projectcardlang {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+
+    .projectcardtext p {
+      margin-bottom: 20px;
+    }
+
+    .teamtext h2 {
+      font-size: 30px;
+    }
+
+    .teamtext p {
+      font-size: 12px;
+    }
+
+    .contactform label {
+      font-size: 10px;
+    }
+
+    .contactform input {
+      font-size: 10px;
+      padding: 6px 10px;
+      margin-bottom: 15px;
+    }
+
+    .contactform button {
+      font-size: 10px;
+      padding: 6px 12px;
+    }
+
+    .contactform p {
+      font-size: 10px;
+    }
+
+    .textarea {
+      height: 100px;
+    }
+
+    .reviewboxp {
+      font-size: 26px;
+    }
+
+    .getstartedtext {
+      padding-top: 30px;
+    }
+
+    .getstartedbox h2 {
+      font-size: 22px;
+    }
+
+    .getstartedbox p {
+      font-size: 12px;
+    }
+
+    .getstartedbutton {
+      margin-top: 50px;
+      font-size: 12px;
+      padding: 8px 16px;
+    }
+
+    .getintouchtext h3 {
+      font-size: 28px;
+    }
+
+    .getintouchtext p {
+      font-size: 10px;
+    }
+
+    .getintouchtext button {
+      margin-top: 10px;
+      font-size: 10px;
+      padding: 8px 16px;
+    }
+
+    .getintouchemail h4 {
+      font-size: 70px;
+      line-height: 60px;
+    }
+
+    .getintouch h5 {
+      margin-top: 15px;
+      font-size: 12px;
+    }
+  }
