@@ -1,37 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Tom Sia Portfolio
+###### Date Created: 15/02/2025
+###### Authour: Tom Sia
 
-## Getting Started
+<p> I created this website to display all my future works before entering into 
+the University of Massey, Auckland Campus. I will be creating all sorts of projects so I want them all to be accessible in this portfolio. <p>
 
-First, run the development server:
+##### About the portfolio
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p> When creating the portfolio, I am trying to aim for a luxurious look for this web app, I decided to go for a black, gold and gray theme because for me that gives a high-quality and luxurious look when looking at a colour pallete. <p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p> I also want to add smoothness to my portfolio when scrolling when clicking on anything, like when you're opening a iphone or samsung box for the first time that slow opening that makes people think the product is worth anticipating over and going to be a good product. I will be doing this through different widgets in the website such as buttons, how the website opens, how it shifts through information. <p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+##### Updates
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+###### 05/08/2025
 
-## Learn More
+<p> This portfolio was created about 6 months ago, but I personally never felt good enough to upload the project to GitHub because for me it was never good enough, but I decided that the only way I am going to improve is to upload it and show the progress along the way <p>
 
-To learn more about Next.js, take a look at the following resources:
+<p> I have created the base of the website currently, so everything works at a *don't touch anything but scroll level*, what I personally still need to do is:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> - Make the web app work on mobile.
+> - Redo the wwdul so its using a grid instead of margin.
+> - Make it dynamic in a more proper way.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# TomSiaPortfolio
+Then after these updates I will consider the project ready at a *base level*. I will then proceed with the *experimental* phase where I can start adding small touches that will make the portfolio my own
